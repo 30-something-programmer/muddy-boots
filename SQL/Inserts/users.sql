@@ -1,0 +1,86 @@
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (2,NULL,NULL,'Tmp','Tmp','Dan','Stark','Stark','Starky',NULL),
+	 (3,NULL,NULL,'Tmp','Tmp','Matt','Hussey','Hussey','Matt',NULL),
+	 (4,NULL,NULL,'Tmp','Tmp','Keith','Fletcher','Fletcher','Keith',NULL),
+	 (5,NULL,NULL,'Tmp','Tmp','Kieran','Money','Money','Kieran',NULL),
+	 (6,NULL,NULL,'Tmp','Tmp','Pete','Usher','Usher','Pete',NULL),
+	 (7,NULL,NULL,'Tmp','Tmp','Dn','Lonslow','Lonslow','Lonslow',NULL),
+	 (8,NULL,NULL,'Tmp','Tmp','Tom','Larken','Larken','Larken',NULL),
+	 (9,NULL,NULL,'Tmp','Tmp','Ben','Raynor','Raynor','Raynor',NULL),
+	 (10,NULL,NULL,'Tmp','Tmp','Stuart','Edgar','Edgar','Stu E',NULL),
+	 (11,NULL,NULL,'Tmp','Tmp','Jake','Garratt','Garratt','Jake',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (1,NULL,'','tmp','Tmp','Will','Craft','Craft','Will',NULL),
+	 (12,NULL,'Bish_AFC@Hotmail.co.uk','Tmp','Bish_AFC','Ben','Bishop','Bishop','Bish','1987-04-26'),
+	 (13,NULL,NULL,'tmp','tmp','Anthony','Rowe','Rowe','Baljit',NULL),
+	 (14,NULL,NULL,'tmp','tmp','Austin','Ryan','Ryan','Austin',NULL),
+	 (15,NULL,NULL,'tmp','tmp','Joe','Spence','Spence','Spence',NULL),
+	 (16,NULL,NULL,'tmp','tmp','Jake','Colman','Colman','Colman',NULL),
+	 (17,NULL,NULL,'tmp','tmp','Jordan','Ranner','Ranner','Ranner',NULL),
+	 (18,NULL,NULL,'tmp','tmp','Alex','Mond','Mond','Alex',NULL),
+	 (19,NULL,NULL,'tmp','tmp','Craig','C. Brown','C. Brown','Buster',NULL),
+	 (20,NULL,NULL,'tmp','tmp','Ian','Coachafer','Coachafer','Coach',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (21,NULL,NULL,'tmp','tmp','Andrew','Mason','Mason','Andy',NULL),
+	 (22,NULL,NULL,'tmp','tmp','Ian','Maplethorpe','Maplethorpe','Mabo',NULL),
+	 (23,NULL,NULL,'tmp','tmp','Derek','D. Brown','D. Brown','Del Boy',NULL),
+	 (24,NULL,NULL,'tmp','tmp','Tony','Conroy','Conroy','Tony',NULL),
+	 (25,NULL,NULL,'tmp','tmp','Scott','Wells','Wells','Scott',NULL),
+	 (26,NULL,NULL,'tmp','tmp','Kai','Wolff','Wolff','Kai',NULL),
+	 (27,NULL,NULL,'tmp','tmp','Ben','Ben. Brown','Ben. Brown','Ben Brown',NULL),
+	 (28,NULL,NULL,'tmp','tmp','Sam','Loasby','Loasby','Sam',NULL),
+	 (29,NULL,NULL,'tmp','tmp','Stefan','Porter','Porter','Stef',NULL),
+	 (30,NULL,NULL,'tmp','tmp','Chris','Yallop','Yallop','Chris',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (31,NULL,NULL,'tmp','tmp','Stuart','Parkinson','Parkinson','Stu P',NULL),
+	 (32,NULL,NULL,'tmp','tmp','Tom','T. Johnson','T. Johnson','Tom J',NULL),
+	 (33,NULL,NULL,'tmp','tmp','Mike','Alexander','Alexander','Mike',NULL),
+	 (34,NULL,NULL,'tmp','tmp','Jamie','Parsons','Parsons','JP',NULL),
+	 (35,NULL,NULL,'tmp','tmp','Garry','Fawn','Fawn','Garry',NULL),
+	 (36,NULL,NULL,'tmp','tmp','Matthew','Petch','Petch','Petch',NULL),
+	 (37,NULL,NULL,'tmp','tmp','Steven','Foley','Foley','Steve',NULL),
+	 (38,NULL,NULL,'tmp','tmp','Adam','Cropper','Cropper','Crop',NULL),
+	 (39,NULL,NULL,'tmp','tmp','Jordan','Peters','Peters','Jordan P',NULL),
+	 (40,NULL,NULL,'tmp','tmp','James','Lloyd','Lloyd','JL',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (41,NULL,NULL,'tmp','tmp','Ben','Young','Young','Youngy',NULL),
+	 (42,NULL,NULL,'tmp','tmp','Neil','Arnold','Arnold','Arnie',NULL),
+	 (43,NULL,NULL,'tmp','tmp','Charlie','Hill','Hill','Charlie',NULL),
+	 (44,NULL,NULL,'tmp','tmp','','Dixon','Dixon','Dicko',NULL),
+	 (45,NULL,NULL,'tmp','tmp','Ramy','Hegab','Hegab','Ramy',NULL),
+	 (46,NULL,NULL,'tmp','tmp','Andrew','Daniels','Daniels','Dan Daniels',NULL),
+	 (47,NULL,NULL,'tmp','tmp','Kevin','Stow','Stow','Kev',NULL),
+	 (48,NULL,NULL,'tmp','tmp','Jonathan','Jarvis','Jarvis','JJ',NULL),
+	 (49,NULL,NULL,'tmp','tmp','Russ','Westerman','Westerman','Russ',NULL),
+	 (50,NULL,NULL,'tmp','tmp','Craig','Barlow','Barlow','Craig',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (51,NULL,NULL,'tmp','tmp','Barry','Baldwin','Baldwin','Baz',NULL),
+	 (52,NULL,NULL,'tmp','tmp','Bobby','Hulse','Hulse','Bobby',NULL),
+	 (53,NULL,NULL,'tmp','tmp','Mattheiu','Rogers','Rogers','Rogers',NULL),
+	 (54,NULL,NULL,'tmp','tmp','Jonathan','Johnston','Johnston','Jonny',NULL),
+	 (55,NULL,NULL,'tmp','tmp','Nathan','Bocock','Bocock','Nath',NULL),
+	 (56,NULL,NULL,'tmp','tmp','Finlay','Hanslip','Hanslip','Fin',NULL),
+	 (57,NULL,NULL,'tmp','tmp','Gareth','Ansty','Ansty','Gaz',NULL),
+	 (58,NULL,NULL,'tmp','tmp','Rikki','Small','Small','Rikki',NULL),
+	 (59,NULL,NULL,'tmp','tmp','Reece','Marshall','Marshall','Reece',NULL),
+	 (60,NULL,NULL,'tmp','tmp','Michael','Andrews, M','Andrews, M','Michael',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (61,NULL,NULL,'tmp','tmp','Travis','Ayres','Ayres','Travis',NULL),
+	 (62,NULL,NULL,'tmp','tmp','Luke','Caruana','Caruana','Luke',NULL),
+	 (63,NULL,NULL,'tmp','tmp','Louis','Downs','Downs','Louis',NULL),
+	 (64,NULL,NULL,'tmp','tmp','Duncan','McDougall','McDougall','Dunc',NULL),
+	 (65,NULL,NULL,'tmp','tmp','Carl','Parkes','Parkes','Carl',NULL),
+	 (66,NULL,NULL,'tmp','tmp','Matt','Parlett','Parlett','Matt Parlett',NULL),
+	 (67,NULL,NULL,'tmp','tmp','James','Voakes','Voakes','James',NULL),
+	 (68,NULL,NULL,'tmp','tmp','Richard','Andrews, R','Andrews, R','Rich',NULL),
+	 (69,NULL,NULL,'tmp','tmp','Peter','Raymond','Raymond','Pete',NULL),
+	 (70,NULL,NULL,'tmp','tmp','Allan','Steel','Steel','Allandinho',NULL);
+INSERT INTO public.users (id,updates,email,"password",username,forname,surname,"squadName","knownAs",dob) VALUES
+	 (71,NULL,NULL,'tmp','tmp','Tony','Bierton','Bierton','Tony Bierton',NULL),
+	 (72,NULL,NULL,'tmp','tmp','Carl','Blow','Blow','Carl B',NULL),
+	 (73,NULL,NULL,'tmp','tmp','Chris','Brocklesby','Brocklesby','Chris B',NULL),
+	 (74,NULL,NULL,'tmp','tmp','Craig','Midgley','Midgley','Craig M',NULL),
+	 (75,NULL,NULL,'tmp','tmp','Dave','Milligan','Milligan','Big Dave',NULL),
+	 (76,NULL,NULL,'tmp','tmp','Chris','Pratt','Pratt','Chris P',NULL),
+	 (77,NULL,NULL,'tmp','tmp','Rob','Read','Read','Rob Read',NULL),
+	 (78,NULL,NULL,'tmp','tmp','Graham','Bell','Bell','Bell',NULL);

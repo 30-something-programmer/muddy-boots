@@ -1,0 +1,86 @@
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (30,'','Chris','Yallop','Chris',30,'Yallop'),
+	 (31,'GK','Stu P','Parkinson','Stuart',31,'Parkinson'),
+	 (1,'GK','Will','Craft','Will',1,'Craft'),
+	 (2,'LB | LWB | LW','Starky','Stark','Dan',2,'Stark'),
+	 (3,'CB','Matt','Hussey','Matt',3,'Hussey'),
+	 (4,'CB','Keith','Fletcher','Keith',4,'Fletcher'),
+	 (5,'CB','Kieran','Money','Kieran',5,'Money'),
+	 (6,'CB | CDM','Pete','Usher','Pete',6,'Usher'),
+	 (7,'RM | RW','Lonslow','Lonslow','Dn',7,'Lonslow'),
+	 (8,'CB','Larken','Larken','Tom',8,'Larken');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (9,'ST | RW','Raynor','Raynor','Ben',9,'Raynor'),
+	 (10,'ST | RW | LW','Stu E','Edgar','Stuart',10,'Edgar'),
+	 (11,'LW | CAM','Jake','Garratt','Jake',11,'Garratt'),
+	 (13,'CM','Baljit','Rowe','Anthony',13,'Rowe'),
+	 (14,'ST','Austin','Ryan','Austin',14,'Ryan'),
+	 (15,'CB','Spence','Spence','Joe',15,'Spence'),
+	 (16,'','Colman','Colman','Jake',16,'Colman'),
+	 (17,'CB','Ranner','Ranner','Jordan',17,'Ranner'),
+	 (18,'RB | LB','Alex','Mond','Alex',18,'Mond'),
+	 (19,'CB','Buster','C. Brown','Craig',19,'C. Brown');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (20,'CM','Coach','Coachafer','Ian',20,'Coachafer'),
+	 (21,'LB','Andy','Mason','Andrew',21,'Mason'),
+	 (22,'CM','Mabo','Maplethorpe','Ian',22,'Maplethorpe'),
+	 (23,'CB','Del Boy','D. Brown','Derek',23,'D. Brown'),
+	 (24,'GK','Tony','Conroy','Tony',24,'Conroy'),
+	 (25,'ST','Scott','Wells','Scott',25,'Wells'),
+	 (26,'ST | RW | LW','Kai','Wolff','Kai',26,'Wolff'),
+	 (27,'','Ben Brown','Ben. Brown','Ben',27,'Ben. Brown'),
+	 (28,'','Sam','Loasby','Sam',28,'Loasby'),
+	 (29,'RB','Stef','Porter','Stefan',29,'Porter');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (32,'CB','Tom J','T. Johnson','Tom',32,'T. Johnson'),
+	 (33,'','Mike','Alexander','Mike',33,'Alexander'),
+	 (34,'RB','JP','Parsons','Jamie',34,'Parsons'),
+	 (35,'','Garry','Fawn','Garry',35,'Fawn'),
+	 (36,'CM','Petch','Petch','Matthew',36,'Petch'),
+	 (37,'CM','Steve','Foley','Steven',37,'Foley'),
+	 (38,'','Crop','Cropper','Adam',38,'Cropper'),
+	 (39,'RW','Jordan P','Peters','Jordan',39,'Peters'),
+	 (40,'CM','JL','Lloyd','James',40,'Lloyd'),
+	 (41,'CDM | CM','Youngy','Young','Ben',41,'Young');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (42,'CDM | CM','Arnie','Arnold','Neil',42,'Arnold'),
+	 (43,'ST','Charlie','Hill','Charlie',43,'Hill'),
+	 (44,'RB | CB','Dicko','Dixon','',44,'Dixon'),
+	 (45,'CAM | RW','Ramy','Hegab','Ramy',45,'Hegab'),
+	 (46,'CB','Dan Daniels','Daniels','Andrew',46,'Daniels'),
+	 (47,'GK | CB','Kev','Stow','Kevin',47,'Stow'),
+	 (48,'LM | CM','JJ','Jarvis','Jonathan',48,'Jarvis'),
+	 (49,'','Russ','Westerman','Russ',49,'Westerman'),
+	 (50,'CAM | RW','Craig','Barlow','Craig',50,'Barlow'),
+	 (51,'CDM | CM','Baz','Baldwin','Barry',51,'Baldwin');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (52,'CM | CAM','Bobby','Hulse','Bobby',52,'Hulse'),
+	 (53,'CB','Rogers','Rogers','Mattheiu',53,'Rogers'),
+	 (54,'RB | RWB | RW','Jonny','Johnston','Jonathan',54,'Johnston'),
+	 (55,'CB','Nath','Bocock','Nathan',55,'Bocock'),
+	 (56,'LW | LWB | LB','Fin','Hanslip','Finlay',56,'Hanslip'),
+	 (57,'RW | RWB | RB','Gaz','Ansty','Gareth',57,'Ansty'),
+	 (58,'ST','Rikki','Small','Rikki',58,'Small'),
+	 (59,'CB','Reece','Marshall','Reece',59,'Marshall'),
+	 (60,'','Michael','Andrews, M','Michael',60,'Andrews, M'),
+	 (61,'','Travis','Ayres','Travis',61,'Ayres');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (62,'','Luke','Caruana','Luke',62,'Caruana'),
+	 (63,'','Louis','Downs','Louis',63,'Downs'),
+	 (64,'','Dunc','McDougall','Duncan',64,'McDougall'),
+	 (65,'','Carl','Parkes','Carl',65,'Parkes'),
+	 (66,'','Matt Parlett','Parlett','Matt',66,'Parlett'),
+	 (67,'','James','Voakes','James',67,'Voakes'),
+	 (68,'','Rich','Andrews, R','Richard',68,'Andrews, R'),
+	 (69,'','Pete','Raymond','Peter',69,'Raymond'),
+	 (70,'','Allandinho','Steel','Allan',70,'Steel'),
+	 (71,'','Tony Bierton','Bierton','Tony',71,'Bierton');
+INSERT INTO public.players (id,positions,knownas,"squadName",forname,userid,surname) VALUES
+	 (72,'','Carl B','Blow','Carl',72,'Blow'),
+	 (73,'','Chris B','Brocklesby','Chris',73,'Brocklesby'),
+	 (74,'','Craig M','Midgley','Craig',74,'Midgley'),
+	 (75,'','Big Dave','Milligan','Dave',75,'Milligan'),
+	 (76,'','Chris P','Pratt','Chris',76,'Pratt'),
+	 (77,'','Rob Read','Read','Rob',77,'Read'),
+	 (12,'RB | RWB | RW','Bish','Bishop','Ben',12,'Bishop'),
+	 (78,NULL,'Bell','Bell','Graham',78,'Bell');

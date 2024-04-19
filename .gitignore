@@ -2,4 +2,4 @@
 *.ini
 *-venv/
 *-injects/
-dev/
+__pycache__/
