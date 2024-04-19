@@ -63,7 +63,7 @@ class Database:
             retrieves the data then disconnects
             query : str - the query to be executed on the db
             fetch : int - 0 = fetch all, 1 = 1, X = x amount
-            dbChange : boo - if the query requires a commit statement to make changes
+            dbChange : bool - if the query requires a commit statement to make changes
         """
         self._connect_to_db()
         print(f"Running query {query}")
@@ -105,5 +105,10 @@ class Database:
         # close the communication with the PostgreSQL 
         self._disconnect_from_db()
 
+    def get_match(self,matchID) -> json:
+        """ Retrieves full details as a match"""
+        sqlQuery = f"select * from fn_getMatch({matchID})"
+        self.run_query(sqlQuery)
+        
 # Generate a db class
 db = Database("Database.ini")
