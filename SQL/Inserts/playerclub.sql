@@ -1,0 +1,86 @@
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (2,1,'2021-06-27',NULL,NULL),
+	 (3,1,'2021-05-30',NULL,NULL),
+	 (4,1,'2021-07-04',NULL,NULL),
+	 (5,1,'2021-05-30',NULL,NULL),
+	 (6,1,'2021-05-30',NULL,NULL),
+	 (7,1,'2021-07-04',NULL,NULL),
+	 (8,1,'2021-05-30',NULL,NULL),
+	 (9,1,'2021-05-30',NULL,NULL),
+	 (10,1,'2021-05-30',NULL,NULL),
+	 (11,1,'2021-05-30',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (12,1,'2021-08-29',NULL,NULL),
+	 (13,1,'2021-05-30',NULL,NULL),
+	 (14,1,'2021-06-27',NULL,NULL),
+	 (15,1,'2022-02-20',NULL,NULL),
+	 (16,1,'2023-01-08',NULL,NULL),
+	 (17,1,'2021-05-30',NULL,NULL),
+	 (18,1,'2021-05-30',NULL,NULL),
+	 (19,1,'2021-05-30',NULL,NULL),
+	 (20,1,'2021-05-30',NULL,NULL),
+	 (21,1,'2021-07-11',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (22,1,'2022-06-05',NULL,NULL),
+	 (23,1,'2021-09-26',NULL,NULL),
+	 (24,1,'2021-05-30',NULL,NULL),
+	 (25,1,'2021-08-08',NULL,NULL),
+	 (26,1,'2022-01-16',NULL,NULL),
+	 (27,1,'2023-02-05',NULL,NULL),
+	 (28,1,'2022-10-30',NULL,NULL),
+	 (29,1,'2022-10-23',NULL,NULL),
+	 (30,1,'2023-07-09',NULL,NULL),
+	 (31,1,'2021-05-30',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (32,1,'2022-07-24',NULL,NULL),
+	 (33,1,'2023-12-13',NULL,NULL),
+	 (34,1,'2021-06-27',NULL,NULL),
+	 (35,1,'2022-10-30',NULL,NULL),
+	 (36,1,'2021-08-29',NULL,NULL),
+	 (37,1,'2022-02-20',NULL,NULL),
+	 (38,1,'2023-03-26',NULL,NULL),
+	 (39,1,'2022-07-17',NULL,NULL),
+	 (40,1,'2021-05-30',NULL,NULL),
+	 (41,1,'2021-05-30',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (42,1,'2022-07-03',NULL,NULL),
+	 (43,1,'2023-05-14',NULL,NULL),
+	 (44,1,'2023-03-19',NULL,NULL),
+	 (45,1,'2023-01-22',NULL,NULL),
+	 (46,1,'2022-07-10',NULL,NULL),
+	 (47,1,'2021-07-11',NULL,NULL),
+	 (48,1,'2021-06-27',NULL,NULL),
+	 (49,1,'2023-07-23',NULL,NULL),
+	 (50,1,'2022-08-28',NULL,NULL),
+	 (51,1,'2022-03-27',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (52,1,'2021-08-22',NULL,NULL),
+	 (53,1,'2021-06-27',NULL,NULL),
+	 (54,1,'2022-09-25',NULL,NULL),
+	 (55,1,'2022-07-10',NULL,NULL),
+	 (56,1,'2021-10-10',NULL,NULL),
+	 (57,1,'2021-09-26',NULL,NULL),
+	 (58,1,'2023-01-08',NULL,NULL),
+	 (59,1,'2021-08-08',NULL,NULL),
+	 (60,1,'2022-10-30',NULL,NULL),
+	 (61,1,'2023-03-26',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (62,1,'2023-07-23',NULL,NULL),
+	 (63,1,'#N/A',NULL,NULL),
+	 (64,1,'2023-05-14',NULL,NULL),
+	 (65,1,'#VALUE!',NULL,NULL),
+	 (66,1,'2022-08-07',NULL,NULL),
+	 (67,1,'2022-10-30',NULL,NULL),
+	 (68,1,'2023-08-27',NULL,NULL),
+	 (69,1,'2023-09-03',NULL,NULL),
+	 (70,1,'2022-07-24',NULL,NULL),
+	 (71,1,'2021-08-08',NULL,NULL);
+INSERT INTO public.playerclub (playerid,clubid,joindate,status,updates) VALUES
+	 (72,1,'2021-05-30',NULL,NULL),
+	 (73,1,'2022-02-20',NULL,NULL),
+	 (74,1,'2021-05-30',NULL,NULL),
+	 (75,1,'2021-05-30',NULL,NULL),
+	 (76,1,'2021-08-01',NULL,NULL),
+	 (77,1,'2021-06-27',NULL,NULL),
+	 (78,1,'2023-11-26',NULL,NULL),
+	 (1,1,'2021-05-30',NULL,NULL);
