@@ -3,9 +3,9 @@
 
 #!/usr/bin/python 
 from threading import Thread
-from modules.mb_config import config
+from modules.config import config
 import sys
-from modules.mb_runtime import running
+from modules.runtime import running
 from signal import signal, SIGINT
 from sys import exit
 
@@ -27,7 +27,7 @@ if __name__ == '__main__':
   		# Start the website in a seperate thread
 		if config["website"]["enable"]:
 			running_apps.append((config["website"]["name"], config["website"]))
-			from modules.mb_website import website_server
+			from modules.website import website_server
 			Thread(
 				name = "Muddy Boots Website", 
 				target = website_server, 
@@ -37,7 +37,7 @@ if __name__ == '__main__':
 		# Start the api server in a seperate thread
 		if config["api"]["enable"]:
 			running_apps.append((config["website"]["name"], config["api"]))
-			from modules.mb_api import api_server
+			from modules.api import api_server
 			Thread(
 				name = "Muddy Boots API", 
 				target = api_server, 

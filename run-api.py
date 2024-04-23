@@ -1,8 +1,8 @@
-from modules.mb_api import api_server
-from modules.mb_runtime import running
+from modules.api import api_server
+from modules.runtime import running
 
 if __name__ == '__main__': 
-    api_server
+    api_server()
 
     print('Press CTRL-C to exit.')
 

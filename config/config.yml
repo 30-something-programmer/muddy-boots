@@ -12,3 +12,7 @@ website:
 gui:
     enable: True
     theme: "tbc"
+database:
+    name: "muddyboots"
+    username: "ben"
+    password: "r!.?Y7U`-KyzktL"

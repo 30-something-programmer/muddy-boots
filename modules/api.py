@@ -1,7 +1,8 @@
 import asyncio
 import websockets 
 import json
-from modules.mb_config import config
+from modules.config import config
+from modules.database import db
 
 class WebsocketHandler:
     """
@@ -137,7 +138,7 @@ class WebsocketHandler:
        
 def api_server() -> None:
     """
-    Hosts a local websocket server
+    Hosts a local API server using websockets
     """   
         
     async def handler(websocket):
@@ -184,9 +185,13 @@ def api_server() -> None:
             pass
 
     async def main():
-        async with websockets.serve(handler, config["websocket"]["host"], config["websocket"]["port"]):
+        async with websockets.serve(handler, config["api"]["host"], config["api"]["port"]):
             await asyncio.Future()  # run forever
 
+    # Show that the api sucessfully started
+    host = config["api"]["host"]
+    port = config["api"]["port"]
+    print (f"started websocket api server on host {host}:{port}")
     # Start the websocket
     asyncio.run(main())
     

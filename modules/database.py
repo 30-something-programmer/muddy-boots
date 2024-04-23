@@ -28,12 +28,13 @@ class Database:
     
         # get section, default to postgresql 
         self.config = {} 
-        if parser.has_section("database"): 
-            params = parser.items("database") 
+        section = "db"
+        if parser.has_section(section): 
+            params = parser.items(section) 
             for param in params: 
                 self.config[param[0]] = param[1] 
         else: 
-            raise Exception('Section {0} not found in the {1} file'.format("database", self.inifile)) 
+            raise Exception('Section {0} not found in the {1} file'.format(section, self.inifile)) 
         
     def _connect_to_db(self) -> None:
         self.connection = None
@@ -104,11 +105,6 @@ class Database:
          
         # close the communication with the PostgreSQL 
         self._disconnect_from_db()
-
-    def get_match(self,matchID) -> json:
-        """ Retrieves full details as a match"""
-        sqlQuery = f"select * from fn_getMatch({matchID})"
-        self.run_query(sqlQuery)
         
 # Generate a db class
 db = Database("Database.ini")
