@@ -4,8 +4,8 @@ import flask
 import os
 from flask import Flask, url_for, redirect, request
 from flask_cors import CORS
-from modules.config import config
-from modules.runtime import get_base_path
+from modules.mb_config import config
+from modules.mb_runtime import get_base_path
 
 log = logging.getLogger("werkzeug")
 log.setLevel(logging.INFO)

@@ -1,7 +1,7 @@
 import asyncio
 import websockets 
 import json
-from modules.config import config
+from modules.mb_config import config
 
 class WebsocketHandler:
     """
@@ -135,7 +135,7 @@ class WebsocketHandler:
         else:
             return self.prep_data(type, data)
        
-def websocket_server() -> None:
+def api_server() -> None:
     """
     Hosts a local websocket server
     """   

@@ -1,8 +1,11 @@
+# Main python script to run Muddy Boots.
+# Will start the API and the GUI
+
 #!/usr/bin/python 
 from threading import Thread
-from modules.config import config
+from modules.mb_config import config
 import sys
-from modules.runtime import running
+from modules.mb_runtime import running
 from signal import signal, SIGINT
 from sys import exit
 
@@ -16,30 +19,35 @@ def handler(signal_received, frame):
 # Begin the app
 if __name__ == '__main__': 
 	
+	# Host a list of tuples with details of what apps are running
 	running_apps = []
+ 
 	try:
-		# Start the websocket server in a seperate thread
+		
+  		# Start the website in a seperate thread
 		if config["website"]["enable"]:
-			name = "Muddy Boots Website"
-			running_apps.append((name, config["website"]))
-			from modules.website import website_server
+			running_apps.append((config["website"]["name"], config["website"]))
+			from modules.mb_website import website_server
 			Thread(
-				name = name, 
+				name = "Muddy Boots Website", 
 				target = website_server, 
 				daemon = True
 			).start()
 
-		# Start the website in a seperate thread
-		if config["websocket"]["enable"]:
-			name = "Muddy Boots Websocket"
-			running_apps.append((name, config["websocket"]))
-			from modules.websocket import websocket_server
+		# Start the api server in a seperate thread
+		if config["api"]["enable"]:
+			running_apps.append((config["website"]["name"], config["api"]))
+			from modules.mb_api import api_server
 			Thread(
-				name = name, 
-				target = websocket_server, 
+				name = "Muddy Boots API", 
+				target = api_server, 
 				daemon = True
 			).start()
 
+		# Start the GUI in a seperate thread
+		if config["gui"]["enable"]:
+			print("we want a gui here. Ta")
+			
 	except SystemExit:
 		raise
 	

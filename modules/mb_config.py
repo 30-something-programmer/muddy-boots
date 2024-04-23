@@ -1,7 +1,7 @@
 import sys
 import yaml
 from pathlib import Path
-from modules.runtime import get_base_path
+from modules.mb_runtime import get_base_path
 
 
 class Config(dict):
