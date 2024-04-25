@@ -2,7 +2,7 @@ import asyncio
 import websockets 
 import json
 from modules.config import config
-from modules.database import db
+from modules.classes import Match
 
 class WebsocketHandler:
     """
@@ -92,14 +92,12 @@ class WebsocketHandler:
         """Message received by the websocket, return appropriate data"""
         
         message = json.loads(message)
-        type = message["type"]
-        data = message["data"]
-        match type:
-            case "SUB":
-                rtn = self.subscribe(data, websocket)
+        match message["type"]:
+            case "sub":
+                rtn = self.subscribe(message["subId"], websocket)
                 return self.prep_data("notification", rtn)
-            case "GET":
-                return self.get_update(data)
+            case "getMatch":
+                return self.get_match(message["matchId"])
             case _:
                 return self.prep_data("Unknown", {"message" : f"Unknown type '{type}'"})
     
@@ -135,7 +133,12 @@ class WebsocketHandler:
             return self.prep_data("Unknown", {"message" : f"Unknown GET type '{type}'"})
         else:
             return self.prep_data(type, data)
-       
+    
+    def get_match(self, matchId) -> str:
+        """ Returns a string formatted match """
+        return Match(matchId)
+    
+    
 def api_server() -> None:
     """
     Hosts a local API server using websockets
@@ -158,7 +161,7 @@ def api_server() -> None:
             updates = websocket_handler.publish(websocket)
             while updates:
                 message = updates.pop()
-                if message != None:
+                if message:
                     await asyncio.create_task(send(websocket, message))
     
     async def consumer_handler(websocket):

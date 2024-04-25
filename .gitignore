@@ -2,5 +2,5 @@
 *.ini
 *-venv/
 *-injects/
-*__pycache__/
-*Inserts/
+__pycache__/
+*insert/

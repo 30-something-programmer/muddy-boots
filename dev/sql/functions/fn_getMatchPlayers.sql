@@ -5,12 +5,24 @@ drop function IF EXISTS fn_getMatchPlayers;
 create or replace function fn_getMatchPlayers(vmatch integer) 
   returns table(
     teamID integer,  
-    playerID integer
+    playerID integer,
+    positions varchar,
+    knownas varchar,
+    squadName varchar,
+    forname varchar,
+    userid int,
+    surname varchar
 ) 
 as $$
     select 
         t."id" as "teamID",
-        p."id" as "playerID"
+        p."id" as "playerID",
+        p."positions",
+        p."knownas",
+        p."squadName",
+        p."forname",
+        p."userid",
+        p."surname"
         from playermatch pm
         join players p on pm."playerId"=p."id" 
         join teams t on pm."teamId"=t."id"

@@ -41,12 +41,10 @@ class Database:
         try: 
 
             # Connect to the PostgreSQL server 
-            print('Connecting to the PostgreSQL database...') 
             self.connection = psycopg2.connect(**self.config)
 
             # Generate a cursor - use dict to assist with json transfer
             self.cursor = self.connection.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
-            print("Connection complete")
 
         except (Exception, psycopg2.DatabaseError) as error: 
             print(error) 
@@ -56,7 +54,6 @@ class Database:
 
         if self.connection is not None:
             self.cursor.close()
-            print('Database connection closed')
 
     def run_query(self, query, fetch = 0, dbChange = False) -> json:
         """
@@ -67,7 +64,6 @@ class Database:
             dbChange : bool - if the query requires a commit statement to make changes
         """
         self._connect_to_db()
-        print(f"Running query {query}")
         self.cursor.execute(query)
        
         if query is None:
