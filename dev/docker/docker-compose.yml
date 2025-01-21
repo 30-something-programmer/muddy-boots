@@ -1,0 +1,34 @@
+networks:
+  muddy-boots:
+
+services:
+
+  db:
+    image: postgres:latest
+    container_name: db
+    restart: always
+    environment:
+      - POSTGRES_USER=${MB_USER}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    volumes:
+      - db_data:/var/lib/postgresql/data 
+    networks:
+      - muddy-boots
+
+  app:
+    image: python:3.11.9-alpine3.20
+    container_name: app
+    restart: always
+    volumes:
+      - app_data:/app/muddy-boots
+    networks:
+      - muddy-boots
+    build:
+      context: .
+      dockerfile: Dockerfile
+    working_dir: /app/muddy-boots
+    tty: true
+
+volumes:
+  db_data:
+  app_data:
