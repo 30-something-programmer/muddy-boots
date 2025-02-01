@@ -1,0 +1,1 @@
+-- Each entry signifies an official that officiated the match and in what capacity

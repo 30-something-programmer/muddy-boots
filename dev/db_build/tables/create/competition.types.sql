@@ -1,0 +1,1 @@
+-- Each entry in this table identifies a competition type. For example: League/Cup/Tournament

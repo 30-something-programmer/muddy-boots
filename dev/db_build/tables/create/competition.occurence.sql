@@ -1,0 +1,3 @@
+-- Each competition hosts an occurence. An entry in this table identifies that the competition
+-- is available for the given occurence. E.G. Premier League is available for season 2024-2025 - on selection of the SeasonID.
+-- It can also host an entry for a Cup running for a particular month or year

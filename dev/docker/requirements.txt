@@ -1,2 +1,5 @@
 # Jupyter notebook environment
 jupyter
+python-dotenv
+psycopg2
+sqlalchemy-utils

@@ -1,0 +1,1 @@
+-- Each entry in this table identifies a single competition. For example the Premier League - with the TypeID for a League.

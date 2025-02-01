@@ -1,0 +1,1 @@
+-- Each entry identifies a single team assigned to the appropriate club.
